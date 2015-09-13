@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.1.0'
+  s.add_dependency 'spree_core', '~> 3.1.0.beta'
   s.add_dependency 'openpayu', '~> 1.0.10'
 
   s.add_development_dependency 'capybara', '~> 2.1'
